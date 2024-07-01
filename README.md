@@ -1,17 +1,17 @@
 ![Screenshot (115)](https://github.com/Rahulrajak1710/Helm-Project/assets/67949307/57c59c79-00fc-42fa-8c39-d3a6123c7628)
 # Helm create
-helm create 'helloword'
+helm create 'chart-name'
 # Install a Chart:
- abc helm install <release-name><chart-name>
+ abc helm install 'release-name' 'chart-name
 # List Installed Releases:
   helm list
 # Upgrade a Release:
-  helm upgrade <release-name> <chart-name>
+  helm upgrade 'release-name' 'chart-name'
 # Uninstall a Release:
-   helm uninstall <release-name>
+   helm uninstall 'release-name'
 # Rollback a Release:
-  helm rollback <release-name> <revision-number>
+  helm rollback 'release-name' 'revision-number'
 # View Release History:
-  helm show chart <chart-name>
+  helm show chart 'chart-name'
 # Show Chart Information:
-  helm show chart <chart-name>
+  helm show chart 'chart-name'
